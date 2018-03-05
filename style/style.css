@@ -1,0 +1,55 @@
+/*
+*
+*
+*GENERAL
+*
+*/
+body {
+    font-family: Arial, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+*
+*
+*HEADER
+*
+*/
+
+header {
+    width: 100%;
+    border-bottom: 2px solid #eee;
+    box-shadow: 5px 5px 5px #eee;
+    padding: 2px 5px;
+}
+
+.logo-section {
+    float: left;
+    width: 20%;
+}
+
+.logo-img {
+    width: 100%;
+}
+
+.title{
+    float: right;
+}
+
+h1 {
+    margin: 12px 0 0;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    color: #2d3c49;
+    font-weight: 500;
+}
+
+.title p {
+    text-align: right;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
