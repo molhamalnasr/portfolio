@@ -27,12 +27,12 @@ header {
     width: 100%;
     border-bottom: 2px solid #eee;
     box-shadow: 5px 5px 5px #eee;
-    padding: 2px 5px;
 }
 
 .logo-section {
     float: left;
     width: 20%;
+    margin: 0 0 0 5px;
 }
 
 .logo-img {
@@ -41,6 +41,7 @@ header {
 
 .title{
     float: right;
+    margin: 0 5px 0 0;
 }
 
 h1 {
