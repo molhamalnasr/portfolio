@@ -26,6 +26,9 @@ a:visited {
 header {
     width: 100%;
     border-bottom: 2px solid #eee;
+    -webkit-box-shadow: 5px 5px 5px #eee;
+    -moz-box-shadow: 5px 5px 5px #eee;
+    -o-box-shadow: 5px 5px 5px #eee;
     box-shadow: 5px 5px 5px #eee;
     display: flex;
     align-items: center;
