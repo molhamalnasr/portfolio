@@ -27,12 +27,13 @@ header {
     width: 100%;
     border-bottom: 2px solid #eee;
     box-shadow: 5px 5px 5px #eee;
+    display: flex;
+    align-items: center;
 }
 
 .logo-section {
-    float: left;
-    width: 20%;
     margin: 0 0 0 5px;
+    flex: 1;
 }
 
 .logo-img {
@@ -42,6 +43,8 @@ header {
 .title{
     float: right;
     margin: 0 5px 0 0;
+    flex: 4;
+    text-align: right;
 }
 
 h1 {
