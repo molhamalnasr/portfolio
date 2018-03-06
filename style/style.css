@@ -159,3 +159,17 @@ h4 {
         height: 150px;
     }
 }
+
+@media only screen and (min-width: 900px) {
+    body {
+        display: block;
+        width: 900px;
+        margin: 0 auto;
+        transition: all 0.3s ease;
+    }
+    h3 {
+        width: 860px;
+        margin: 40px 20px 0;
+
+    }
+}
