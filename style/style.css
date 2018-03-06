@@ -141,3 +141,20 @@ h4 {
 }
 
 
+@media only screen and (min-width: 700px) {
+    .container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    article {
+        width: 280px;
+        margin: 0 auto;
+    }
+    figure {
+        margin: 10px;
+    }
+    .project-img {
+        height: 150px;
+    }
+}
