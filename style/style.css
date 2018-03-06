@@ -10,6 +10,12 @@ body {
     padding: 0;
 }
 
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
 /*
 *
 *
@@ -71,3 +77,64 @@ main {
     background: #eee url(../img/cover.jpeg) no-repeat left top;
     background-size: cover;
 }
+
+h3 {
+    display: block;
+    width: 50%;
+    color: #7d97ad;
+    letter-spacing: 0.2em;
+    margin: 15px auto;
+    border-bottom: 3px double #7d97ad;
+}
+
+figure {
+    background: #fff;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.15);
+    line-height: 1.5;
+}
+
+.project-img {
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+    padding: 10px 15px 15px;
+    position: relative;
+}
+
+figcaption:after {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 0;
+    top: -15px;
+    right: 0;
+    border-width: 0 0 15px 15px;
+    border-style: solid;
+    border-color: white white white transparent;
+    box-sizing: border-box;
+}
+
+figcaption:before {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 0;
+    top: -15px;
+    left: 0;
+    border-width: 0 15px 15px 0;
+    border-style: solid;
+    border-color: white transparent white white;
+    box-sizing: border-box;
+}
+
+h4 {
+    margin: 10px 0;
+    color: #02b3e4;
+    font-weight: bold;
+}
+
+
