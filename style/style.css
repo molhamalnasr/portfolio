@@ -205,20 +205,20 @@ h4 {
     left: 50px;
 }
 
-.social-item:nth-child(1) {
-    color: #4267B2;
+.social-item:nth-child(1) path {
+    fill: #4267B2;
 }
 
-.social-item:nth-child(2) {
-    color: #24292E;
+.social-item:nth-child(2) path {
+    fill: #24292E;
 }
 
-.social-item:nth-child(3) {
-    color: #303C42;
+.social-item:nth-child(3) path {
+    fill: #303C42;
 }
 
-.social-item:nth-child(4) {
-    color: #69C1D3;
+.social-item:nth-child(4) path {
+    fill: #0077B5;
 }
 
 @media only screen and (min-width: 700px) {
