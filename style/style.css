@@ -163,13 +163,18 @@ h4 {
     width: 100%;
 }
 
+/*
+*
+*
+*FOOTER SECTION
+*
+*/
+
 .footer-container {
     min-height: 200px;
     width: 100%;
-}
-
-.footer-container {
     display: flex;
+    border-top: 2px solid #eee;
 }
 
 .footer-header,
@@ -183,11 +188,37 @@ h4 {
     list-style: none;
     margin: 0;
     padding: 0;
+    border-left: 2px solid red;
 }
 
 .social-item {
     font-size: 2em;
     margin: 5px;
+    position: relative;
+}
+
+.social-item::after {
+    content: attr(my-content);
+    position: absolute;
+    font-size: 0.5em;
+    top: 10px;
+    left: 50px;
+}
+
+.social-item:nth-child(1) {
+    color: #4267B2;
+}
+
+.social-item:nth-child(2) {
+    color: #24292E;
+}
+
+.social-item:nth-child(3) {
+    color: #303C42;
+}
+
+.social-item:nth-child(4) {
+    color: #69C1D3;
 }
 
 @media only screen and (min-width: 700px) {
