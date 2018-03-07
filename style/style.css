@@ -184,6 +184,10 @@ h4 {
     margin-left: 10px;
 }
 
+.footer-header {
+    text-align: right;
+}
+
 .social-list {
     list-style: none;
     margin: 0;
@@ -220,6 +224,13 @@ h4 {
 .social-item:nth-child(4) path {
     fill: #0077B5;
 }
+
+/*
+*
+*
+*MEDIA QUERY
+*
+*/
 
 @media only screen and (min-width: 700px) {
     .container {
