@@ -262,4 +262,22 @@ h4 {
         margin: 40px 20px 0;
 
     }
+    .social-item {
+        display: inline-block;
+        margin: 0 15px;
+    }
+
+    .social-item::after {
+        content: attr(my-content);
+        position: absolute;
+        font-size: 0.5em;
+        top: 40px;
+        left: 0;
+        width: 0;
+        overflow: hidden;
+        transition: width 0.5s ease;
+    }
+    .social-item:hover::after {
+        width: 80px;
+    }
 }
