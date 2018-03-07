@@ -144,6 +144,25 @@ h4 {
     font-weight: bold;
 }
 
+.project-link {
+    position: relative;
+}
+
+.project-link::after {
+    content: "";
+    height: 2px;
+    background: #000;
+    width: 0;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.project-link:hover::after {
+    width: 100%;
+}
+
 
 @media only screen and (min-width: 700px) {
     .container {
