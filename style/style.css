@@ -276,9 +276,6 @@ h4 {
     }
 
     .social-item::after {
-        content: attr(my-content);
-        position: absolute;
-        font-size: 0.5em;
         top: 40px;
         left: 0;
         width: 0;
