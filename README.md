@@ -10,7 +10,7 @@ v. 1.0
 ### FEATURES
 
 - Easy to add new section (Project)
-        past the following code inside `<div class="container"></div>`
+        past the following code:
         
 ```html
 <article>
@@ -23,3 +23,5 @@ v. 1.0
     </figure>
 </article>
 ```
+
+ inside `<div class="container"></div>`
