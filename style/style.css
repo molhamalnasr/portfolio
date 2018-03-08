@@ -203,7 +203,7 @@ h4 {
 }
 
 .social-item::after {
-    content: attr(my-content);
+    content: attr(data-content);
     position: absolute;
     font-size: 0.5em;
     top: 10px;
