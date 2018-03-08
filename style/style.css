@@ -157,6 +157,9 @@ h4 {
     position: absolute;
     bottom: -6px;
     left: 0;
+    -webkit-transition: width 0.3s ease;
+    -moz-transition: width 0.3s ease;
+    -o-transition: width 0.3s ease;
     transition: width 0.3s ease;
 }
 
@@ -257,6 +260,9 @@ h4 {
         display: block;
         width: 900px;
         margin: 0 auto;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
         transition: all 0.3s ease;
     }
     h3 {
@@ -277,6 +283,9 @@ h4 {
         left: 0;
         width: 0;
         overflow: hidden;
+        -webkit-transition: width 0.5s ease;
+        -moz-transition: width 0.5s ease;
+        -o-transition: width 0.5s ease;
         transition: width 0.5s ease;
     }
     .social-item:hover::after {
