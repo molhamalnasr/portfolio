@@ -1,5 +1,5 @@
 # Portfolio template
-v. 1.0
+v. 1.1
 
 ### Resources:
 - [cover Image: pexels.com](https://www.pexels.com/photo/codes-coding-computer-programming-270366/)
